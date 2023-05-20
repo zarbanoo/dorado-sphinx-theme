@@ -1,11 +1,11 @@
 include *.txt
 include *.rst
 include *.py
-include astropy_sphinx_theme/__init__.py
+include dorado_sphinx_theme/__init__.py
 include setup.cfg
 
 # Non-python files.
-recursive-include astropy_sphinx_theme *
+recursive-include dorado_sphinx_theme *
 
 # Extraneous files.
 global-exclude .DS_Store
